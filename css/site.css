@@ -1,0 +1,1068 @@
+﻿body, header, main, article, aside, div, img, h1, h2, h3, h4, h5, h6, p, blockquote, a, hr
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	clear: both;
+	font-family: 'Segoe UI';
+	width: 100%;
+}
+
+.no-gutters {
+     margin-right: 0;
+     margin-left: 0;
+     > .col, > [class*="col-"]
+     padding-right: 0;
+     padding-left: 0;
+}
+
+.btn-unique {
+     background-color: rgba(40, 167, 69, 1);
+     color: rgba(255, 255, 255, 1)
+}
+
+
+#padder{
+     background-color: rgba(40, 167, 69, 1);
+     color: rgba(255, 255, 255, 1);
+     height: auto;
+     margin: 0;
+     min-height: 20px;
+     padding: 0.5em 0;
+     width: 100%;
+}
+
+#padder .container-fluid div[class*=col] a {
+     color: rgba(255, 255, 255, 1);
+     text-decoration: none;
+}
+
+#padder .container-fluid div[class*=col] a span {
+     margin: 0.1rem 0;
+}
+
+
+
+header {
+    background-color: rgba(255, 255, 255, 1);
+    clear: both;
+    color: rgba(40, 167, 69, 1);
+    height: auto;
+    margin: 0;
+    min-height: 50px;
+    padding: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header .container-fluid {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header .container-fluid div[class*=col-] {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+
+/* HEADER STYLES END HERE
+-------------------------------------------------------------*/
+.
+
+.navbar-toggler {
+   color: green;
+}
+.nsvbar-item {
+    color: green;
+}
+.nav-link {
+    color: green !important;
+}
+.dropdown-menu {
+     background: green;
+}
+.dropdown-item {
+     color: #ffffff;
+}
+
+main {
+     clear: both;
+     height: auto;
+     margin: 0;
+     min-height: 500px;
+     width: 100%;
+}
+
+
+#banner {
+     clear: both;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     width: 100%;
+}
+
+#banner #carousel-banner h2 {
+    clear: both;
+    color: rgba(40, 167, 69, 1);
+    font-family: inderRegular;
+    font-size: 3.5em;
+    font-weight: 900;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+#banner #carousel-banner p {
+    clear: both;
+    color: rgba(255, 255, 255, 1);
+    font-family: playballregular;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 0;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+
+#banner .carousel-caption{
+     clear: both;
+     float: left;
+     text-align: left;
+     top: 7rem;
+}
+
+#banner .carousel-caption h2
+{
+     clear: both;
+     color: rgba(220, 10, 50, 1);
+     font-family: armwrestlerbold;
+     font-size: 3rem;
+     margin: 0;
+     padding: 0;
+     text-shadow: 2px 1px 1px rgba(50, 50, 50, 1);
+
+}
+
+#banner .carousel-caption h2 span
+{
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     font-size: 2rem;
+     margin: 0;
+     padding: 0;
+}
+
+#banner .carousel-caption h4
+{
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     font-family: playballregular;
+     font-size: 1.8rem;
+}
+
+
+
+#banner .carousel-caption #welcomeBanner
+{
+     clear: both;
+}
+
+#banner .carousel-caption #welcomeBanner a
+{
+     border: 1px solid rgba(255, 255, 255, 1);
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     padding: 1rem 1.5rem;
+     text-decoration: none;
+}
+
+#banner .carousel-caption #welcomeBanner a:hover
+{
+     background-color: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+     color: rgba(40, 167, 69, 1);
+}
+
+
+/*main #banner .carousel-indicators {
+     z-index: 0;
+}
+
+main #banner ol.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main #banner ol.carousel-indicators .active {
+    background-color: rgba(40, 167, 69, 1);
+}
+
+main #banner a.carousel-control {
+    background: none;
+    background-color: transparent;
+}*/
+
+
+
+/* #banner and header STYLES END HERE
+-------------------------------------------------------------*/
+
+main #bottomSticker {
+     background-color: rgba(0, 127, 255, 1);
+     clear: both;
+     height: auto;
+     margin: 0;
+     min-height: 5vh;
+     padding: 0.5rem 0;
+     text-align: center;
+     width: 100%;
+     z-index: 9999;
+}
+
+
+main #bottomSticker .container-fluid div[class*=col] p
+{
+     color: rgba(255, 255, 255, 1);
+     font-family: playballregular;
+}
+
+/* bottomSticker
+----------------------------------------------------------- */
+
+
+main #indexCol
+{
+	clear: both;
+	height: auto;
+	margin-top: -4rem;
+	min-height: 20vh;
+	text-align: center;
+	width: 100%;
+}
+
+main #indexCol .container div[class*=col]
+{
+	padding: 0.5em 0;
+}
+
+main #indexCol .container div[class*=col] span
+{
+     background-color: rgba(255, 255, 255, 1);
+     border-top: 1.5px solid rgba(40, 167, 69, 1);
+     border-radius: 5rem;
+	font-size: 4em;
+	padding: 0.5em;
+}
+
+main #indexCol .container div[class*=col] h2
+{
+	font-family: inderRegular;
+	font-size: 1.8em;
+	padding: 0.5em 0;
+}
+
+main #indexCol .container div[class*=col] p
+{
+	color: rgba(10, 10, 10, 1);
+	font-family: inderRegular;
+	font-size: 1em;
+     padding: 0 1rem;
+}
+
+
+/* IndexCol Style Ends Here
+--------------------------------------------- */
+main {
+     clear: both;
+     height: auto;
+     margin: 0;
+     min-height: 500px;
+     width: 100%;
+}
+
+
+#banner {
+     clear: both;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     width: 100%;
+}
+
+#banner #carousel-banner h2 {
+    clear: both;
+    color: rgba(40, 167, 69, 1);
+    font-family: inderRegular;
+    font-size: 3.5em;
+    font-weight: 900;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+#banner #carousel-banner p {
+    clear: both;
+    color: rgba(255, 255, 255, 1);
+    font-family: playballregular;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 0;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+
+#banner .carousel-caption{
+     clear: both;
+     float: left;
+     text-align: left;
+     top: 7rem;
+}
+
+#banner .carousel-caption h2
+{
+     clear: both;
+     color: rgba(220, 10, 50, 1);
+     font-family: armwrestlerbold;
+     font-size: 3rem;
+     margin: 0;
+     padding: 0;
+     text-shadow: 2px 1px 1px rgba(50, 50, 50, 1);
+
+}
+
+#banner .carousel-caption h2 span
+{
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     font-size: 2rem;
+     margin: 0;
+     padding: 0;
+}
+
+#banner .carousel-caption h4
+{
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     font-family: playballregular;
+     font-size: 1.8rem;
+}
+
+
+
+#banner .carousel-caption #welcomeBanner
+{
+     clear: both;
+}
+
+#banner .carousel-caption #welcomeBanner a
+{
+     border: 1px solid rgba(255, 255, 255, 1);
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     padding: 1rem 1.5rem;
+     text-decoration: none;
+}
+
+#banner .carousel-caption #welcomeBanner a:hover
+{
+     background-color: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+     color: rgba(40, 167, 69, 1);
+}
+
+
+/*main #banner .carousel-indicators {
+     z-index: 0;
+}
+
+main #banner ol.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main #banner ol.carousel-indicators .active {
+    background-color: rgba(40, 167, 69, 1);
+}
+
+main #banner a.carousel-control {
+    background: none;
+    background-color: transparent;
+}*/
+
+
+
+/* #banner and header STYLES END HERE
+-------------------------------------------------------------*/
+
+main #bottomSticker {
+     background-color: rgba(0, 127, 255, 1);
+     clear: both;
+     height: auto;
+     margin: 0;
+     min-height: 5vh;
+     padding: 0.5rem 0;
+     text-align: center;
+     width: 100%;
+     z-index: 9999;
+}
+
+
+main #bottomSticker .container-fluid div[class*=col] p
+{
+     color: rgba(255, 255, 255, 1);
+     font-family: playballregular;
+}
+
+/* bottomSticker
+----------------------------------------------------------- */
+
+
+main #indexCol
+{
+	clear: both;
+	height: auto;
+	margin-top: -4rem;
+	min-height: 20vh;
+	text-align: center;
+	width: 100%;
+}
+
+main #indexCol .container div[class*=col]
+{
+	padding: 0.5em 0;
+}
+
+main #indexCol .container div[class*=col] span
+{
+     background-color: rgba(255, 255, 255, 1);
+     border-top: 1.5px solid rgba(40, 167, 69, 1);
+     border-radius: 5rem;
+	font-size: 4em;
+	padding: 0.5em;
+}
+
+main #indexCol .container div[class*=col] h2
+{
+	font-family: inderRegular;
+	font-size: 1.5rem;
+	padding: 0.5em 0;
+}
+
+main #indexCol .container div[class*=col] h4
+{
+	color: rgba(10, 10, 10, 1);
+	font-family: inderRegular;
+	font-size: 1.2rem;
+     padding: 0 1rem;
+}
+
+
+/* IndexCol Style Ends Here
+--------------------------------------------- */
+
+
+
+main #indexPrograms
+{
+     clear: both;
+     height: auto;
+     margin: 0;
+     min-height: 50vh;
+     padding: 5em 0;
+     width: 100%;
+}
+
+main #indexPrograms .container
+{
+     clear: both;
+}
+
+
+main #indexPrograms .container div[class*=col]:first-child > div
+{
+     background-color: rgba(255, 255, 255, 1);
+     border-bottom: 2px solid rgba(100, 100, 100, 1);
+     clear: both;
+     display: inline-block;
+     height: auto;
+     margin-bottom: 1.5rem;
+     min-height: 65vh;
+     width: 100%;
+}
+
+main #indexPrograms .container div[class*=col]:first-child > div > h2
+{
+     background-color: green;
+     color: rgba(255, 255, 255, 1);
+     clear: both;
+     font-family: Oswald;
+     font-size: 1.5em;
+     margin: 0 0 0.5em 0;
+     padding: 0.5em;
+     text-align: center;
+}
+
+main #indexPrograms .container div[class*=col]:first-child > div > a {
+     clear: both;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     width: 100%;
+}
+
+main #indexPrograms .container div[class*=col]:first-child > div > a h3 {
+     background-color: rgba(255, 57, 0, 1);
+     color: rgba(255, 255, 255, 1);
+     font-family: inderRegular;
+     font-size: 1.55em;
+     height: 100px;
+     margin: 0;
+     padding: 0.5em;
+     position: absolute;
+     text-align: center;
+     top: 0;
+     width: 100px;
+     z-index: 9999;
+}
+
+main #indexPrograms .container div[class*=col]:first-child > div > a img {
+     clear: both;
+     margin: 0;
+     padding: 0;
+     height: 80%;
+}
+
+main #indexPrograms .container div[class*=col]:first-child > div > a p {
+     background-color: rgba(0, 0, 0, 0.7);
+     bottom: 0;
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     font-size: 1.25em;
+     margin: -5em 0 0 0;
+     padding: 0.5em;
+     position: relative;
+     text-align: justify;
+     z-index: 10;
+}
+
+
+main #indexPrograms .container div[class*=col]:first-child > div > a:hover img {
+     opacity: 0.8;
+}
+
+main #indexPrograms .container div[class*=col]:last-child > div
+{
+     clear: both;
+     height: auto;
+     margin-bottom:1.5rem;
+     min-height: 30vh;
+     width: 100%;
+}
+
+main #indexPrograms .container div[class*=col]:last-child > div h4
+{
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.3rem;
+}
+
+
+/* IndexProgramms Style Ends Here
+ -------------------------------------------------- */
+
+
+
+main #indexQuotes
+{
+     background-attachment: fixed;
+     background-image: url('../images/quotesBg.png');
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     height: auto;
+     margin: 0;
+     min-height: 20vh;
+     padding: 3em 0;
+     width: 100%;
+}
+
+main #indexQuotes .container blockquote
+{
+     border: none;
+     color: rgba(255, 255, 255, 1);
+     font-size: 1.3em;
+     font-style: italic;
+     text-transform: lowercase;
+}
+
+main #indexQuotes .container h2
+{
+     border: none;
+     color: rgba(255, 255, 255, 1);
+     font-family: inderRegular;
+     font-size: 1.5em;
+     font-style: italic;
+}
+
+
+/* IndexQuotes Style Ends Here
+ -------------------------------------------------- */
+
+
+main #indexNews {
+     border-top: 1px solid rgba(100, 100, 100, 1);
+     clear: both;
+     height: auto;
+     margin: 0 auto;
+     min-height: 250px;
+     padding: 5rem 0;
+     text-align: center;
+     width: 100%;
+}
+
+main #indexNews .container {
+     padding-bottom: 2rem;
+     padding-top: 1rem;
+}
+
+main #indexNews .container > h2 {
+     font-size: 2rem;
+     font-family: inderRegular;
+}
+
+
+main #indexNews .container .card-group .card a img:hover {
+     transform: scale(1.01);
+     transform-origin: center center;
+     transform-style: preserve-3d;
+     transition: ease-in;
+     transition-delay: 100ms;
+     transition-property: all;
+}
+
+main #indexNews .container .card-group .card .card-body h5 {
+     font-family: inderRegular;
+     font-size: 1rem;
+}
+
+main #indexNews .container .card-group .card .card-body p {
+     font-size: 0.8rem;
+}
+
+
+
+/* IndexNews Ends Here
+---------------------------------------*/
+
+
+main #indexBlogs {
+     border-top: 1px solid rgba(0, 127, 255, 1);
+     clear: both;
+     height: auto;
+     margin: 0 auto;
+     min-height: 250px;
+     padding: 5rem 0;
+     text-align: center;
+     width: 100%;
+}
+
+main #indexBlogs .container
+{
+     padding-bottom: 2rem;
+     padding-top: 1rem;
+}
+
+main #indexBlogs .container > h2
+{
+     font-size: 2rem;
+     font-family: inderRegular;
+}
+
+
+main #indexBlogs .container .card-group .card a img:hover
+{
+     transform: scale(1.01);
+     transform-origin: center center;
+     transform-style: preserve-3d;
+     transition: ease-in;
+     transition-delay: 100ms;
+     transition-property: all;
+}
+
+main #indexBlogs .container .card-group .card .card-body h5
+{
+     font-family: inderRegular;
+     font-size: 1rem;
+}
+
+main #indexBlogs .container .card-group .card .card-body p
+{
+     font-size: 0.8rem;
+}
+
+
+
+/* Index Blogs Ends Here
+---------------------------------------------*/
+
+main #indexNewsletter {
+     background-color: rgba(255, 57, 0, 1);
+     clear: both;
+     color: rgba(255, 255, 255, 1);
+     height: auto;
+     margin: 0;
+     min-height: 10vh;
+     padding: 2em 0;
+     width: 100%;
+}
+
+
+main #indexNewsletter .container-fluid div[class*=col] h2
+{
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.8em;
+}
+
+main #indexNewsletter .container-fluid div[class*=col] p
+{
+     clear: both;
+     font-size: 1.1em;
+}
+
+/* IndexNewsletter Style Ends Here
+ -------------------------------------------------- */
+
+
+
+main #indexQuestions
+{
+     border-bottom: 2px solid rgba(100, 100, 100, 0.5);
+     clear: both;
+     height: auto;
+     min-height: 30vh;
+     padding: 5em 0;
+     width: 100%;
+}
+
+
+main #indexQuestions .container-fluid
+{
+     padding-bottom: 1em;
+}
+
+main #indexQuestions .container-fluid h2
+{
+     clear: both;
+     color: rgba(40, 167, 69, 1);
+     font-family: inderRegular;
+     font-size: 2em;
+     margin-bottom: 1em;
+}
+
+main #indexQuestions .container-fluid div[class*=col] a
+{
+     background-color: rgba(255, 255, 255, 1);
+     border-bottom: 2px solid rgba(100, 100, 100, 1);
+     clear: both;
+     display: block;
+     height: auto;
+     margin: 0 0 1em 0;
+     padding: 1em 0 0 0;
+     text-decoration: none;
+     width: 100%;
+}
+
+main #indexQuestions .container-fluid div[class*=col] a:hover
+{
+     border-bottom: 2px solid rgba(100, 100, 100, 0);
+}
+
+main #indexQuestions .container-fluid div[class*=col] a h4
+{
+     clear: both;
+     color: rgba(50, 50, 50, 1);
+     font-size: 1.2em;
+     min-height: 80px;
+     padding: 0.5em;
+}
+
+
+/* IndexQuestions Style Ends Here
+------------------------------------------- */
+
+
+main #indexAudioVideo
+{
+     clear: both;
+     height: auto;
+     min-height: 30vh;
+     padding: 5em 0;
+     width: 100%;
+}
+
+
+main #indexAudioVideo .container div[class*=col] h2
+{
+     border-bottom: 2px solid rgba(255, 255, 255, 1);
+     background-color: rgba(255, 57, 0, 1);
+     color: rgba(255, 255, 255, 1);
+     font-family: inderRegular;
+     font-size: 1.5em;
+     padding: 0.5em 1em;
+}
+
+main #indexAudioVideo .container div[class*=col] iframe
+{
+     min-height: 60vh;
+     width: 100%;
+}
+
+main #indexAudioVideo .container div[class*=col] iframe video
+{
+     background-color: rgba(255, 57, 0, 1);
+     color: rgba(255, 255, 255, 1);
+     font-family: inderRegular;
+     font-size: 1.5em;
+     padding: 0.5em 1em;
+     width: 100% !important;
+}
+
+
+main #indexAudioVideo .container div[class*=col] audio
+{
+     background-color: rgba(255, 57, 0, 1);
+     color: rgba(255, 255, 255, 1);
+     font-family: inderRegular;
+     font-size: 1.5em;
+     padding: 0.5em 1em;
+     width: 100%;
+}
+
+/* INDEXAUDIOVIDEO STYLES END HERE
+---------------------------------------------------- */
+
+
+main #indexSocial
+{
+     border-top: 1px solid rgba(100, 100, 100, 1);
+     clear: both;
+     height: auto;
+     min-height: 30vh;
+     padding: 4em 0;
+     width: 100%;
+}
+
+
+
+main #indexSocial .container > h2
+{
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.8em;
+     padding: 0 0 1em 0;
+     width: 100%;
+}
+
+main #indexSocial .container div[class*=col] > h2
+{
+     background-color: rgba(14, 109, 155, 1);
+     color: rgba(255, 255, 255, 1);
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.5em;
+     padding: 0.5em 0.5em;
+}
+
+main #indexSocial .container div[class*=col] > div
+{
+     background-color: rgba(255, 255, 255, 1);
+     border-bottom: 2px solid rgba(100, 100, 100, 1);
+     clear: both;
+     height: auto;
+     margin: 0 0 1em 0;
+     padding: 1em;
+     text-align: center;
+     text-decoration: none;
+     width: 100%;
+}
+
+main #indexSocial .container div[class*=col] > div iframe
+{
+     width: 100% !important;
+}
+
+
+/* FOOTER SECTION HERE
+-------------------------------------------------*/
+ul {
+ padding:0;
+ margin:0
+}
+li {
+ list-style:none
+}
+a:focus,a:hover {
+ text-decoration:none;
+ -webkit-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+a:focus {
+ outline:0
+}
+img {
+ max-width:100%
+}
+p {
+ font-size:16px;
+ line-height:30px;
+ color:#898b96;
+ font-weight:300
+}
+h4 {
+ font-family:Rubik,sans-serif;
+ margin:0;
+ font-weight:400;
+ padding:0;
+ color: white
+}
+a {
+ color:#5867dd
+}
+.no-padding {
+ padding:0!important
+}
+
+.footer-widget-title {
+ color: green
+}
+
+.go_top {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#5867dd;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+ padding:105px 0 65px 0
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+.footer--light {
+ background:#e5e4e2
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ padding-left:48px
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:32px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}
+
+
+
+ @media only screen and (max-width: 1200px) {
+	
+	
+	.carousel-item {
+	
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	
+	.carousel-item{
+		width: 100%;
+		height: 1100;
+	}
+	
+}
+@media only screen and (max-width: 450px) {
+	
+	.d-block {
+          width: 100%;
+          height: 1110;
+	}
+}
